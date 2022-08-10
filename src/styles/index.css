@@ -1,12 +1,39 @@
+*, 
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
 
-/* 
+body {
+    background-color: #000112;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.traffict-light {
+    margin-top: 4rem;
+    display: inline-block;
+    background-color: black;
+    width: 110px;
+    height: 340px;
+    border-radius: .5rem;
+}
 
-*/
+.traffict-light .light {
+    text-align: center;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    margin: .45rem .2rem;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
